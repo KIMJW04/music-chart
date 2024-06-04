@@ -45,4 +45,3 @@ file_name = f"billboard/billboard100_{current_date}.json"
 # JSON 파일로 저장
 with open(file_name, 'w', encoding='utf-8') as file:
     json.dump(chart_data, file, ensure_ascii=False, indent=4)
-
